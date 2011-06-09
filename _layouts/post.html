@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<article class="hentry">
+  <hgroup>
+    <h2 class="entry-title">{{ page.title }}</h2>
+    <div class="postmeta">
+      <time datetime="">{{ page.date | date_to_string }}</time>
+    </div>
+  </hgroup>
+  {{ content | contentfilter }}
+</article>

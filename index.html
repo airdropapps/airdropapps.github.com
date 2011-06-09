@@ -1,0 +1,35 @@
+---
+layout: default
+title: Airdrop Apps - Delivering awesome iOS Apps
+---
+
+
+{% for post in site.posts limit:2%}
+  <article class="hentry">
+    <hgroup>
+      <h2 class="entry-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <div class="postmeta">
+        <time datetime="">{{ post.date | date_to_string }}</time>
+      </div>
+    </hgroup>
+    {{ post.content | contentfilter }}
+    <br/>
+    <hr/>
+    <br/>
+  </article>
+{% endfor %}
+
+{% for post in site.posts limit:8 offset:2 %}
+  <article class="hentry">
+    <hgroup>
+      <h2 class="entry-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <div class="postmeta">
+        <time datetime="">{{ post.date | date_to_string }}</time>
+      </div>
+    </hgroup>
+    {{ post.content | excerptfilter }}
+    <br/>
+    <hr/>
+    <br/>
+  </article>
+{% endfor %}
