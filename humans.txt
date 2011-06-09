@@ -3,18 +3,18 @@
 
 
 /* TEAM */
-  <your title>: <your name>
-  Site: 
-  Twitter: 
-  Location: 
+  Airdrop Air Commander: Jay Thrash
+  Site: AirdropApps.com
+  Twitter: airdropapps
+  Location: Low Earth Orbit
 
 /* THANKS */
-  Names (& URL): 
+  Names: Elise, Collin, and Andrew 
 
 /* SITE */
   Standards: HTML5, CSS3
   Components: Modernizr, jQuery
-  Software:
+  Software: Jekyll, TextMate, and OS X
   
 
                                     

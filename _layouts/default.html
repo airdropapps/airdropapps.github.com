@@ -12,6 +12,21 @@
   <!--[if lte IE 7]>
   <link rel="stylesheet" type="text/css" href="ie67hacks.css" />
   <![endif]-->
+  
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-3999257-8']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+  
 </head>
 <body>
 <div>
@@ -28,18 +43,22 @@
 		{{ content }}
 	</section>
 	<aside>
-    <h2>Airdrop Apps</h2>
-    <p>We're on a mission to deliver useful, fun, and downright awesome iOS applications.  And we're just getting started!</p>
+	  <a href="/"><img id="logo" src="/images/logo.png"/></a>
+    <p>At Airdrop Apps we're on a mission to deliver useful, fun, and downright awesome iOS applications.  And we're just getting started!</p>
+    <p><a href="http://eepurl.com/eadIP">Join our mailing list</a> to stay up to date with all our app announcements.</p>
 		<br />
 	  <nav>
   		<ul>
   			<li><a href="/">home</a></li>
-  			<li><a href="/about">about</a></li>
-  			<li><a href="/contact">contact</a></li>
-  			<li><a href="/archive">archive</a></li>
+  			<li><a href="mailto:support@airdropapps.com">support</a></li>
+  			<!-- <li><a href="/archive">archive</a></li> -->
+  			<li><a href="http://itunes.apple.com/us/artist/airdrop-apps/id436761974">iTunes</a></li>
   			<li><a href="http://www.twitter.com/airdropapps">twitter</a></li>
   		</ul>
   	</nav>
+  	<br/>
+  	<h2>Our Apps</h2>
+  	<a href="http://itunes.apple.com/us/app/the-bond-mixology/id436761971?mt=8"><img src="/images/BondMixologyApp.png"/></a>
   </aside>
 </div>
 <div class="clearfix"></div>

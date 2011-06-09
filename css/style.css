@@ -228,9 +228,9 @@ header {
 
 }
 	#logo {
-		padding: 35px 0px 35px 40px;
-		background: #fff;
+		padding-left: 78px;
 	}
+
 	#logo a:active {
 		background: transparent !important;
 	}
@@ -379,6 +379,7 @@ hr {
 p {
 	margin: 0 0 1em;
 }
+
 
 
 /**
